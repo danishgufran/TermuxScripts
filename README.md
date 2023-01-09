@@ -9,7 +9,7 @@ Note: You can also download Termux from the Android Play Store.
 1. Download repository using ```git``` and ```cd``` into directory on Linux host
 
 ```bash
-git clone https://github.com/saitiku/TermuxScripts
+git clone https://github.com/danishgufran/TermuxScripts
 cd TermuxScripts/
 ```
 
