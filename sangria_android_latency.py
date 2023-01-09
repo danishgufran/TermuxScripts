@@ -11,8 +11,8 @@ import sklearn
 from time import time
 from sklearn import neighbors
 from sklearn.svm import SVC as SVM
-import keras
-from keras.saving import pickle_utils
+# import keras
+# from keras.saving import pickle_utils
 import pickle
 
 # create dataset
@@ -37,7 +37,7 @@ x_test = np.random.randint(100, size=(1000, 1, 165))
 print(os.getcwd())
 # dev = ['BLU','HTC','LG','MOTO','OP3','S7']
 
-dev = ['DNN','CNN', 'KNN', 'SVM', 'RF', 'GPC', 'XGBOOST', 'CATBOOST']
+dev = ['KNN', 'SVM', 'RF', 'GPC']
 
 store = []
 for device in dev:
